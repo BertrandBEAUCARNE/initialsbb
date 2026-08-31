@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  background-color: azure;
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+.descriptionBien {
+  font-size: 16px;
+  color: blue;
+  font-family: sans-serif;
+  border: 4px #000 solid;
+  padding: 40px;
+  background-color: blanchedalmond;
+  width: 40%;
+  margin-right: 150px;
+  float: right;
+  overflow-x: auto;
+  height: 560px;
+}
+h1 {
+  width: 100%;
+  font-size: 25px;
+  color: blue;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 10px;
+}
+#carrousel {
+  width: 480px;
+  height: 640px;
+  overflow: auto;
+  border: 4px #333 solid;
+  margin-left: 220px;
+  float: left;
+}
+.images {
+  display: flex;
+  animation-duration: 180s;
+  animation-name: mesPhotos;
+  animation-iteration-count: infinite;
+}
+@keyframes mesPhotos {
+  0% {
+    transform: translateX(0);
+  }
+  3% {
+    transform: translateX(-480px);
+  }
+  6% {
+    transform: translateX(-960px);
+  }
+  9% {
+    transform: translateX(-1440px);
+  }
+  12% {
+    transform: translateX(-1920px);
+  }
+  15% {
+    transform: translateX(-2400px);
+  }
+  18% {
+    transform: translateX(-2880px);
+  }
+  21% {
+    transform: translateX(-3360px);
+  }
+  24% {
+    transform: translateX(-3840px);
+  }
+  27% {
+    transform: translateX(-4320px);
+  }
+  30% {
+    transform: translateX(-4800px);
+  }
+  33% {
+    transform: translateX(-5280px);
+  }
+  36% {
+    transform: translateX(-5760px);
+  }
+  39% {
+    transform: translateX(-6240px);
+  }
+  42% {
+    transform: translateX(-6720px);
+  }
+  45% {
+    transform: translateX(-7200px);
+  }
+  48% {
+    transform: translateX(-7680px);
+  }
+  51% {
+    transform: translateX(-8160px);
+  }
+  54% {
+    transform: translateX(-8640px);
+  }
+  57% {
+    transform: translateX(-9120px);
+  }
+  60% {
+    transform: translateX(-9600px);
+  }
+  63% {
+    transform: translateX(-10080px);
+  }
+  66% {
+    transform: translateX(-10560px);
+  }
+  69% {
+    transform: translateX(-11040px);
+  }
+  72% {
+    transform: translateX(-11520px);
+  }
+  75% {
+    transform: translateX(-12000px);
+  }
+  78% {
+    transform: translateX(-12480px);
+  }
+  81% {
+    transform: translateX(-12960px);
+  }
+  84% {
+    transform: translateX(-13440px);
+  }
+  90% {
+    transform: translateX(-13920px);
+  }
+  95% {
+    transform: translateX(-14400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  }
+
