@@ -16,7 +16,7 @@ body {
   padding: 40px;
   background-color: blanchedalmond;
   width: 40%;
-  margin-right: 170px;
+  margin-right: 150px;
   float: right;
   overflow-x: auto;
   height: 560px;
@@ -51,7 +51,7 @@ h2 {
   animation-iteration-count: infinite;
 }
 iframe {
-  width: 76.5%;
+  width: 77.5%;
   height: 720px;
   border: 7px whitesmoke solid;
   border-radius: 10px;
